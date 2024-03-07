@@ -1,8 +1,5 @@
 # Personal Project: Sushi Go
 
-[![pipeline status](https://git.sogyo.nl/tdgroot/ip-sushi-go/badges/main/pipeline.svg)](https://git.sogyo.nl/tdgroot/ip-sushi-go/-/commits/main)
-[![code-coverage](https://git.sogyo.nl/tdgroot/ip-sushi-go/badges/main/coverage.svg)](https://git.sogyo.nl/tdgroot/ip-sushi-go/-/commits/main)
-
 ## Goal
 
 The goal of this project is to get an more indept understanding of programming by implementing the card game [Sushi Go] (https://boardgamegeek.com/boardgame/133473/sushi-go). In Sushi Go 2-5 players play against eachother to get the best combination of sushi dishes. 
