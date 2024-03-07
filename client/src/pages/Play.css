@@ -1,0 +1,353 @@
+ body {
+  background-color:#d0f1fb !important;
+} 
+
+.PlayerCards{
+  position:relative;
+  top: 250px;
+  left: 25px;
+} 
+
+.GameStatusMessage{
+  color: #404040;
+  text-align: center;
+  position:relative;
+  top:275px;
+  font-size: 40px;
+}
+
+.cardsPlayerOneEgg{
+  background-image: url('./../assets/nigiri-egg.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOneSalmon{
+  background-image: url('./../assets/nigiri-salmon.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOneSquid{
+  background-image: url('./../assets/nigiri-squid.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOneDumpling{
+  background-image: url('./../assets/dumpling.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOneMakiRol{
+  background-image: url('./../assets/makirol.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOneSashimi{
+  background-image: url('./../assets/sashimi.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOneTempura{
+  background-image: url('./../assets/tempura.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerOnePudding{
+  background-image: url('./../assets/pudding.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+
+.cardsPlayerTwoEgg{
+  background-image: url('./../assets/nigiri-egg.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerTwoSalmon{
+  background-image: url('./../assets/nigiri-salmon.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerTwoSquid{
+  background-image: url('./../assets/nigiri-squid.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerTwoDumpling{
+  background-image: url('./../assets/dumpling.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerTwoMakiRol{
+  background-image: url('./../assets/makirol.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerTwoSashimi{
+  background-image: url('./../assets/sashimi.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+.cardsPlayerTwoTempura{
+  background-image: url('./../assets/tempura.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+.cardsPlayerTwoPudding{
+  background-image: url('./../assets/pudding.png');
+  background-size: cover;
+  background-position: center;
+  color:#404040;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 135px;
+  height:200px;
+  margin: 4px 4px;
+  border-radius:10%;
+}
+
+
+.cardsPlayerOneEgg:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerOneSalmon:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerOneSquid:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerOneDumpling:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerOneMakiRol:hover{
+  border:#88dbf6 4px solid;
+}
+.cardsPlayerOneTempura:hover{
+  border:#88dbf6 4px solid;
+}
+.cardsPlayerOneSashimi:hover{
+  border:#88dbf6 4px solid;
+}
+.cardsPlayerOnePudding:hover{
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerTwoEgg:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerTwoSalmon:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerTwoSquid:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerTwoDumpling:hover {
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerTwoMakiRol:hover{
+  border:#88dbf6 4px solid;
+}
+
+.cardsPlayerTwoTempura:hover{
+  border:#88dbf6 4px solid;
+}
+.cardsPlayerTwoSashimi:hover{
+  border:#88dbf6 4px solid;
+}
+.cardsPlayerTwoPudding:hover{
+  border:#88dbf6 4px solid;
+}
+
+
+.NotActivePlayerInfo {
+  color:black;
+  text-align: left;
+  font-size: 20px;
+  background-color: grey;
+  width: 100%;
+  align-self: flex-start;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-bottom:#404040 solid 2px;
+}
+
+.nrOfCards{
+  float:left;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 7px;
+}
+
+
+.ActivePlayerInfo {
+  color: #404040;
+  text-align: left;
+  font-size: 20px;
+  background-color:#88dbf6;
+  width:100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-top:#404040 solid 2px;
+}
+
+.PlayerName{
+  font-size: 24px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+
+
+.PlayerScore{
+  font-size: 24px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+
+

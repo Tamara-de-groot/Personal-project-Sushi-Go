@@ -1,0 +1,171 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+   
+    <parent>
+      <groupId>sushigo</groupId>
+      <artifactId>ip</artifactId>
+      <version>${revision}</version>  
+  </parent>
+
+  <groupId>sushigo.ip</groupId>
+    <artifactId>api</artifactId>
+    
+    <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+          </plugin>
+          <plugin>
+			      <artifactId>maven-compiler-plugin</artifactId>
+			      <version>3.8.1</version>
+			      <configuration>
+				      <source>21</source>
+				      <target>21</target>
+			      </configuration>
+		      </plugin>
+          
+          <plugin>
+            <artifactId>maven-war-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-maven-plugin</artifactId>
+            <version>11.0.20</version>
+            </plugin>
+        </plugins>
+      </build>
+      
+    <dependencies>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.8.2</version>
+        <scope>test</scope> 
+      </dependency>
+
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-engine</artifactId>
+        <version>5.8.2</version>
+        <scope>test</scope> 
+      </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <version>11.0.19</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-server</artifactId>
+          <version>11.0.19</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-servlet</artifactId>
+          <version>11.0.19</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-webapp</artifactId>
+          <version>11.0.19</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <version>11.0.20</version>
+        </dependency>
+
+        <dependency>
+          <groupId>jakarta.servlet</groupId>
+          <artifactId>jakarta.servlet-api</artifactId>
+          <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>4.0.0</version>
+            <scope>runtime</scope>
+        </dependency>
+
+
+
+        <dependency>
+          <groupId>org.glassfish.jersey.containers</groupId>
+          <artifactId>jersey-container-servlet-core</artifactId>
+          <version>3.1.5</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.glassfish.jersey.containers</groupId>
+          <artifactId>jersey-container-jetty-http</artifactId>
+          <version>3.1.5</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.glassfish.jersey.core</groupId>
+          <artifactId>jersey-server</artifactId>
+          <version>3.1.5</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.glassfish.jersey.inject</groupId>
+          <artifactId>jersey-hk2</artifactId>
+          <version>3.1.5</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.glassfish.jersey.media</groupId>
+          <artifactId>jersey-media-json-jackson</artifactId>
+          <version>3.1.5</version>
+        </dependency>
+
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>2.0.12</version>
+          <scope>runtime</scope>
+        </dependency>
+        
+
+        <dependency>
+          <groupId>org.mockito</groupId>
+          <artifactId>mockito-all</artifactId>
+          <version>1.10.19</version>
+          <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>2.7.2</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+          <groupId>sushigo.ip</groupId>
+          <artifactId>domain</artifactId>
+          <version>${revision}</version> 
+        </dependency>
+
+        <dependency>
+          <groupId>sushigo.ip</groupId>
+          <artifactId>persistence</artifactId>
+          <version>${revision}</version> 
+        </dependency>
+      
+    </dependencies>
+    
+</project>

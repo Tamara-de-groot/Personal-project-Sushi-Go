@@ -1,0 +1,27 @@
+image: maven:latest
+
+variables:
+  JACOCO_CSV_LOCATION: "domain/target/jacocoCsv"
+
+
+stages:
+  - test
+  - coverage
+
+test:
+  stage: test
+  script: 
+    - mvn clean test
+
+coverage:
+  stage: coverage
+  script:
+    - mvn clean test
+    - awk -F "," '{instructions += $4 + $5; covered += $5 } END { print covered, "/", instructions, " instructions covered"; print 100*covered/instructions, "% covered" }' `find . -name "jacoco.csv"`
+  when: always
+  coverage: '/([0-9]{1,3}.[0-9]*).%.covered/'
+
+
+
+
+

@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+   
+    <parent>
+      <groupId>sushigo</groupId>
+      <artifactId>ip</artifactId>
+      <version>${revision}</version>  
+  </parent>
+
+  <groupId>sushigo.ip</groupId>
+    <artifactId>persistence</artifactId>
+    
+    <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+          </plugin>
+          <plugin>
+            <artifactId>maven-war-plugin</artifactId>
+          </plugin>
+        </plugins>
+      </build>
+      
+    <dependencies>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.7.0</version>
+        <scope>test</scope> 
+      </dependency>
+        
+        <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.33</version>
+        </dependency>
+
+        <dependency>
+          <groupId>sushigo.ip</groupId>
+          <artifactId>domain</artifactId>
+          <version>${revision}</version> 
+        </dependency>
+
+    </dependencies>
+    
+</project>

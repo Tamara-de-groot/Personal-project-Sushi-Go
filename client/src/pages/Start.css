@@ -1,0 +1,76 @@
+.Welcome {
+    color: #404040;;
+    font-size: 45px; 
+    position: relative;
+    padding:10px;
+    top:0;
+    left:80px;
+}
+
+.EnterName{
+    color: #404040;;
+    font-size:30px;
+    position: relative;
+    padding: 15px;
+    left:0px;
+}
+
+.completePlayerInputField{
+    background-color: #88dbf6;
+    width:fit-content;
+    border-radius: 5%;
+    border-color: #268eb0;
+    border-width: 4px;
+    border-style: solid;
+    position:fixed;
+    top:50px;
+    left:25%;
+}
+
+.playerInputField{
+    padding: 10px;
+    background-color:#12b6ed;
+    color:whitesmoke;
+    width: 350px;
+    border-radius: 10%;
+    border-width: 3px;
+    border-color:#404040;
+    border-style: solid;
+    padding: 10px;
+    position: relative;
+    left:120px;
+    
+}
+.button{
+    font-size: 20px;
+    border-radius: 10%;
+    background-color:#404040;
+    color:white;
+    position: relative;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    left:215px;
+}
+
+.button:hover{
+    background-color:#9d9d9d;
+    color:#404040
+}
+
+.PlayButton{
+    padding:5%;
+}
+
+.input{
+    padding:10px;
+}
+label {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+
+body {
+  background-color: whitesmoke;
+}
