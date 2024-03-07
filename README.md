@@ -13,7 +13,7 @@ Every game has 3 rounds and after the 3 round the winner is determined.
 
 Download and install all requirements as explained here:
 ```
-git clone https://git.sogyo.nl/tdgroot/ip-sushi-go
+git clone https://github.com/Tamara-de-groot/Personal-project-Sushi-Go
 cd client
 npm install
 ```
